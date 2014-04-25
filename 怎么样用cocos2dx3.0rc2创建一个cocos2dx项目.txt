@@ -1,0 +1,12 @@
+怎么样用cocos2dx3.0rc2创建一个cocos2dx项目
+
+1. cmd到tools cocos2d-console bin目录下
+
+2.执行以下命令 创建项目（括号中为解释）
+
+在控制台cmd键入例cocos new hello（项目名称）-p com.star.hello（包名字）-l
+ cpp（项目类型） -d workspace（项目存放路径）
+
+
+eg:
+./cocos new MyGame -p com.cywu.MyGame -l cpp -d ../../../MyGameTest
